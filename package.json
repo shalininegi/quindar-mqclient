@@ -1,0 +1,30 @@
+{
+  "name": "quindar-mqclient",
+  "version": "1.0.0",
+  "description": "RabbitMQ client to write telemetry data to MongoDB database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audacyDevOps/quindar-mqclient.git"
+  },
+  "author": "Ray Lai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/audacyDevOps/quindar-mqclient/issues"
+  },
+  "homepage": "https://github.com/audacyDevOps/quindar-mqclient#readme",
+  "dependencies": {
+    "amqplib": "^0.4.2",
+    "file-stream-rotator": "0.0.7",
+    "morgan": "^1.7.0",
+    "node-rest-client": "^2.0.1",
+    "nodemon": "^1.9.2",
+    "path": "^0.12.7",
+    "when": "^3.7.7",
+    "winston": "^2.2.0"
+  }
+}
